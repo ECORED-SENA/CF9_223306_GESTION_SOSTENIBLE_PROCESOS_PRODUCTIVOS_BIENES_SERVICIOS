@@ -3,15 +3,14 @@
   BannerInterno(icono="fas fa-sitemap" titulo="Síntesis")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
 
-    p Con el diagrama de actividades se termina la descripción de las tres técnicas usadas para la especificación y el análisis de requisitos, como se pudo analizar cada una de las técnicas nos brinda características para lograr representar gráficamente y de una forma clara, los requisitos que un usuario necesita poder cumplir satisfactoriamente con las solicitudes de los clientes y usuarios, por otro lado se pueden usar todas las técnicas en una especificación y análisis de requisitos si se ve la necesidad.
-    p.mb-5 A continuación, se muestra un mapa conceptual con los elementos más importantes desarrollados en este componente.
+    p.mb-5 Las empresas del siglo XXI deben hacer constantemente un diagnóstico organizacional para identificar situaciones de mejora continua, por lo que la única forma de comparar situaciones es mediante información de periodos que les permita, conocer dónde, qué, quién, cuándo, por qué, cómo, etc., se presentan fallas para generar un plan de mejora continua mediante un PHVA y un seguimiento permanente del proceso, por lo que en el siguiente mapa conceptual podrá identificar cada uno de los pasos que se deben seguir para lograr implementar un sistema de gestión de calidad empresarial y de igual manera ver resumida la temática tratada en el componente formativo.
 
     .row.justify-content-center
       .col-lg-10.mb-5
         figure
           img(src="@/assets/curso/temas/sintesis.svg", alt="alt")
       .col-auto
-        a.anexo.mb-4(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+        a.anexo.mb-4(:href="obtenerLink('/downloads/sintesis.pdf')" target="_blank")
           .anexo__icono
             img(src="@/assets/template/icono-pdf.svg")
           .anexo__texto
