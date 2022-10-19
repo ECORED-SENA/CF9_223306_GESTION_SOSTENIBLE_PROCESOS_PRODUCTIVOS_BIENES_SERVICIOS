@@ -500,18 +500,6 @@ export default {
 </script>
 
 <style lang="sass">
-.edit-bg-text
-  position: relative
-  display: flex
-  align-items: center
-  &::before
-    content: ''
-    width: 295px
-    height: 100%
-    position: absolute
-    top: 0
-    right: 0
-    background-color: #F7E9E1
 .bloque-texto-g-edit
   background: linear-gradient(90deg, rgba(240,189,81,1) 0%, rgba(240,189,81,1) 65%, rgba(250,235,205,1) 65%)
   .bloque-texto-g__img
